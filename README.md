@@ -31,15 +31,7 @@ ________________________________________________________________________________
 
 🌐 Deployed via Netlify
 
-____________________________________________________________________________________________________________
 
-📂 Folder Structure
-bash
-Copy
-Edit
-├── index.html        # Main HTML page
-├── style.css         # Stylesheet for layout & responsiveness
-└── script.js         # JavaScript logic for API requests & DOM updates
 
 
 
