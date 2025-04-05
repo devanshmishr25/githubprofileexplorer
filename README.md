@@ -1,6 +1,6 @@
 🧠 GitHub Profile Explorer
 
-🔗 Live Site: ghprofilex.netlify.app
+🔗 Live Site: [Live Site](https://ghprofilex.netlify.app/)
 
 A clean and interactive web application that allows users to search any GitHub username and instantly view their public profile details, including their avatar, bio, followers, repositories, and more. It's designed to make exploring GitHub profiles simple and visually appealing.
 
