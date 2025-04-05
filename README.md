@@ -1,4 +1,4 @@
-🧠 GitHub Profile Explorer
+**🧠 GitHub Profile Explorer**
 
 🔗 Live Site: [ghprofilex.netlify.app](https://ghprofilex.netlify.app/)
 
@@ -6,7 +6,7 @@ A clean and interactive web application that allows users to search any GitHub u
 
 ____________________________________________________________________________________________________________
 
-✨ Features
+**✨ Features**
 
 🔍 Username Search — Search for any valid GitHub username.
 
@@ -20,7 +20,7 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________________________
 
-🚀 Tech Stack
+**🚀 Tech Stack**
 
 🧑‍💻 HTML5
 
