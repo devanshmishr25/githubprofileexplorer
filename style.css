@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin: 60px 0 40px;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+header p {
+    max-width: 800px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.search-container {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+input {
+    flex: 1;
+    padding: 12px 16px;
+    border: 1px solid #444;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.hidden {
+    display: none;
+}
+
+#error-message {
+    color: #ff6b6b;
+    margin-bottom: 20px;
+}
+
+#profile-container {
+    width: 100%;
+    max-width: 800px;
+}
+
+.profile-card {
+    background-color: #282c34;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 30px;
+    border: 1px solid #444;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-name {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile-username {
+    color: #aaa;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.profile-username:hover {
+    color: #ddd;
+}
+
+.profile-bio {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.profile-stats {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.stat-label {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.stat-value {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.repos-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.repo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.repo-item {
+    border: 1px solid #444;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.repo-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.repo-name {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.repo-name:hover {
+    text-decoration: underline;
+}
+
+.repo-stats {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+}
+
+.repo-description {
+    color: #ddd;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.repo-language {
+    display: inline-block;
+    border: 1px solid #555;
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 12px;
+    color: #ddd;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+    
+    header p {
+        font-size: 16px;
+    }
+    
+    .profile-stats {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .avatar {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .search-container {
+        flex-direction: column;
+    }
+    
+    input {
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+    
+    button {
+        border-radius: 4px;
+        width: 100%;
+    }
+}

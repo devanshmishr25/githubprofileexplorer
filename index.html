@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <header>
+                <h1>Easily View Details Of GitHub Profiles</h1>
+                <p>
+                    Discover GitHub profiles easily. By just searching for the username, you can see the
+                    available information including username and user avatar, descriptions and
+                    information about the repositories. Simplify your GitHub exploration experience.
+                </p>
+            </header>
+
+            <div class="search-container">
+                <input type="text" id="username-input" placeholder="Enter Username">
+                <button id="search-btn">Search</button>
+            </div>
+
+            <div id="loading" class="hidden">Loading...</div>
+            <div id="error-message" class="hidden"></div>
+            
+            <div id="profile-container" class="hidden">
+                <!-- Profile data will be inserted here by JavaScript -->
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 Devansh Mishra. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
